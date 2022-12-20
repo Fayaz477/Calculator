@@ -14,7 +14,7 @@ function calculate() {
   var q = eval(p);
   document.getElementById("values").value = q;
 }
-// This function eliminates the last number to be replaced
+// This function eliminates the last number
 function Backspace() {
   var backspace=document.getElementById('values').value
   backspace=backspace.slice(0,-1)
